@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+.nicegui/
+*.db
+*.db-shm
+*.db-wal
+secret.key
+custom-images/
+
+# gerados ao rodar
+sessions/
+cache/
+webview/
+cloudflared.log
+*.zip
+.env

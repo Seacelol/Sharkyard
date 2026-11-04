@@ -1,0 +1,7 @@
+line-length = 120
+
+[lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[lint.per-file-ignores]
+"mtg_collection/database/migrations/versions/*" = ["E501"]  # gerados pelo Alembic
